@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "some-other-repo"
+version = "0.1.0"
+description = ""
+authors = ["Jonathan Rayner <jonathan.j.rayner@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11 <3.13"
+pkg_a = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_a"}
+pkg_b = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_b"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
