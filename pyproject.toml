@@ -1,15 +1,18 @@
 [tool.poetry]
-name = "some-other-repo"
+name = "some_other_repo"
 version = "0.1.0"
 description = ""
 authors = ["Jonathan Rayner <jonathan.j.rayner@gmail.com>"]
-readme = "README.md"
+packages = [{ include = "some_other_repo"}]
 
 [tool.poetry.dependencies]
-python = ">=3.11 <3.13"
-pkg_a = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_a"}
-pkg_b = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_b"}
+python = "^3.10 <3.13"
 
+pkg_1 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_1"}
+pkg_2 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_2"}
+pkg_3 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_3"}
+pkg_4 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_4"}
+pkg_5 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_5"}
 
 [build-system]
 requires = ["poetry-core"]
