@@ -61,7 +61,7 @@ numpy = "^1.21.2"
 type = "git"
 url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "v1"
-resolved_reference = "e7c3ab76b16eae226388581dab414fa16c98e587"
+resolved_reference = "92a8260521ff336d28f414fd6605f6c02a1c0688"
 subdirectory = "pkg_1"
 
 [[package]]
@@ -80,7 +80,7 @@ numpy = "^1.21.2"
 type = "git"
 url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "v2"
-resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
+resolved_reference = "b008bd272a201ec5a667662f72ce710645d1a4c3"
 subdirectory = "pkg_2"
 
 [[package]]
@@ -99,7 +99,7 @@ numpy = "^1.21.2"
 type = "git"
 url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "HEAD"
-resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
+resolved_reference = "b008bd272a201ec5a667662f72ce710645d1a4c3"
 subdirectory = "pkg_3"
 
 [[package]]
@@ -118,7 +118,7 @@ numpy = "^1.21.2"
 type = "git"
 url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "HEAD"
-resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
+resolved_reference = "b008bd272a201ec5a667662f72ce710645d1a4c3"
 subdirectory = "pkg_4"
 
 [[package]]
@@ -137,7 +137,7 @@ numpy = "^1.21.2"
 type = "git"
 url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "HEAD"
-resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
+resolved_reference = "b008bd272a201ec5a667662f72ce710645d1a4c3"
 subdirectory = "pkg_5"
 
 [metadata]
