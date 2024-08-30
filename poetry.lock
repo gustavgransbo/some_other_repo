@@ -59,9 +59,9 @@ numpy = "^1.21.2"
 
 [package.source]
 type = "git"
-url = "git@github.com:JonathanRayner/some_monorepo.git"
-reference = "HEAD"
-resolved_reference = "f4ef93d51f973fe0db3e340e6b3b0bd9985e3792"
+url = "git@github.com:gustavgransbo/some_monorepo.git"
+reference = "v1"
+resolved_reference = "e7c3ab76b16eae226388581dab414fa16c98e587"
 subdirectory = "pkg_1"
 
 [[package]]
@@ -78,9 +78,9 @@ numpy = "^1.21.2"
 
 [package.source]
 type = "git"
-url = "git@github.com:JonathanRayner/some_monorepo.git"
-reference = "HEAD"
-resolved_reference = "f4ef93d51f973fe0db3e340e6b3b0bd9985e3792"
+url = "git@github.com:gustavgransbo/some_monorepo.git"
+reference = "v2"
+resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
 subdirectory = "pkg_2"
 
 [[package]]
@@ -97,9 +97,9 @@ numpy = "^1.21.2"
 
 [package.source]
 type = "git"
-url = "git@github.com:JonathanRayner/some_monorepo.git"
+url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "HEAD"
-resolved_reference = "f4ef93d51f973fe0db3e340e6b3b0bd9985e3792"
+resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
 subdirectory = "pkg_3"
 
 [[package]]
@@ -116,9 +116,9 @@ numpy = "^1.21.2"
 
 [package.source]
 type = "git"
-url = "git@github.com:JonathanRayner/some_monorepo.git"
+url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "HEAD"
-resolved_reference = "f4ef93d51f973fe0db3e340e6b3b0bd9985e3792"
+resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
 subdirectory = "pkg_4"
 
 [[package]]
@@ -135,12 +135,12 @@ numpy = "^1.21.2"
 
 [package.source]
 type = "git"
-url = "git@github.com:JonathanRayner/some_monorepo.git"
+url = "git@github.com:gustavgransbo/some_monorepo.git"
 reference = "HEAD"
-resolved_reference = "f4ef93d51f973fe0db3e340e6b3b0bd9985e3792"
+resolved_reference = "eb751fab9ad3d1becda525bfbf4766bae7fef7f3"
 subdirectory = "pkg_5"
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10 <3.13"
-content-hash = "42f23fa0abb05f1217403350223f4414102e212617d8793f1d7ef1653f0de6dc"
+content-hash = "d1a90d35aac884a12cc7150f697422fa2b50232d4d98434481a15fb34b8c6a9a"

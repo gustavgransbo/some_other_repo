@@ -8,11 +8,14 @@ packages = [{ include = "some_other_repo"}]
 [tool.poetry.dependencies]
 python = "^3.10 <3.13"
 
-pkg_1 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_1"}
-pkg_2 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_2"}
-pkg_3 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_3"}
-pkg_4 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_4"}
-pkg_5 = {git = "git@github.com:JonathanRayner/some_monorepo.git", subdirectory = "pkg_5"}
+pkg_1 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = "pkg_1", tag="v1"}
+pkg_2 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = "pkg_2", tag="v2"}
+pkg_3 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = "pkg_3"}
+pkg_4 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = "pkg_4"}
+pkg_5 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = "pkg_5"}
+
+[tool.poetry.scripts]
+some_other_repo = "some_other_repo:main"
 
 [build-system]
 requires = ["poetry-core"]
