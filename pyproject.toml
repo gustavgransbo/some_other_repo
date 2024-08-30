@@ -15,7 +15,7 @@ pkg_4 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = 
 pkg_5 = {git = "git@github.com:gustavgransbo/some_monorepo.git", subdirectory = "pkg_5"}
 
 [tool.poetry.scripts]
-some_other_repo = "some_other_repo:main"
+some_other_repo = "some_other_repo.main:main"
 
 [build-system]
 requires = ["poetry-core"]
